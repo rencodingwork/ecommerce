@@ -52,7 +52,7 @@ const Cart = () => {
               <button
                 type="button"
                 onClick={() => setShowCart(false)}
-                className="btn"
+                className="btn繼續"
               >
                 繼續購物
               </button>
@@ -70,7 +70,7 @@ const Cart = () => {
                 </div>
                 <div className="flex bottom">
                   <div>
-                  <p className="quantity-desc">
+                  <p className="quantity-desc購物車">
                     <span className="minus" onClick={() => toggleCartItemQuanitity(item._id, 'dec') }>
                     <AiOutlineMinus />
                     </span>
@@ -97,7 +97,7 @@ const Cart = () => {
               <h3>${totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={handleCheckout}>
+              <button type="button" className="btn結帳" onClick={handleCheckout}>
                 結帳
               </button>
             </div>

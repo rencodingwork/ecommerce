@@ -36,7 +36,7 @@ width: 100%;
   font-size: 29px;
   font-weight: 600;
   margin: 60px 0px;
-  color: #f02d34;
+  color: #250207;
 }
 .marquee {
   position: relative;
@@ -61,7 +61,7 @@ width: 100%;
 }
 
  span.text-red {
-    -webkit-text-stroke: 1px #f02d34;
+    -webkit-text-stroke: 1px #250207;
     margin-left: 6px;
 }
 .logo{
@@ -86,7 +86,7 @@ width: 100%;
   right: -8px;
   font-size: 12px;
   color: #eee;
-  background-color: #f02d34;
+  background-color: #250207;
   width: 18px;
   height: 18px;
   border-radius: 50%;
@@ -130,7 +130,7 @@ width: 100%;
 
 .hero-banner-container{
   padding: 100px 40px;
-  background-color: #dcdcdc;
+  background-color: #ECD7C9;
   border-radius: 15px;
   position: relative;
   height: 500px;
@@ -144,7 +144,7 @@ width: 100%;
 .hero-banner-container button{
    border-radius: 15px;
   padding: 10px 16px;
-  background-color: #f02d34;
+  background-color: #250207;
   color: white;
   border: none;
   margin-top: 40px;
@@ -212,7 +212,7 @@ text-align: end;
 }
 .footer-banner-container{
   padding: 100px 40px;
-  background-color: #f02d34;
+  background-color: #250207;
   border-radius: 15px;
   position: relative;
   height: 400px;
@@ -279,7 +279,7 @@ text-align: end;
 .cart-container{
   height: 100vh;
   width: 600px;
-  background-color: white;
+  background-color: #250207;
   float: right;
   padding: 40px 10px;
   position: relative;
@@ -313,6 +313,7 @@ text-align: end;
   gap: 2px;
   margin-left: 10px;
   border: none;
+  color: #ECD7C9;
   background-color: transparent;
 }
 
@@ -321,11 +322,12 @@ text-align: end;
 }
 .cart-num-items{
   margin-left: 10px;
-  color: #f02d34;
+  color: #ECD7C9;
 }
 .empty-cart{
   margin:40px;
   text-align:center;
+  color:#ECD7C9;
 }
 .empty-cart h3{
   font-weight: 600;
@@ -355,7 +357,7 @@ padding: 20px 10px;
   display: flex;
   justify-content: space-between;
   width: 350px;
-   color: #324d67;
+   color: #ECD7C9;
 
 }
 .item-desc .bottom{
@@ -373,11 +375,12 @@ padding: 20px 10px;
 }
 .total h3{
   font-size: 22px;
+  color: #ECD7C9;
 
 }
 .remove-item{
   font-size: 24px;
-  color: #f02d34;
+  color: #ECD7C9;
   cursor: pointer;
   background: transparent;
   border: none;
@@ -405,13 +408,53 @@ padding: 30px 65px;
   margin-top: 10px;
   margin-top: 40px;
   text-transform: uppercase;
-  background-color: #f02d34;
+  background-color: #250207;
   color: #fff;
   cursor: pointer;
     transform: scale(1, 1);
   transition: transform 0.5s ease;
 }
 .btn:hover{
+  transform: scale(1.1,1.1);
+}
+
+.btn繼續{
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #ECD7C9;
+  color: #250207;
+  cursor: pointer;
+    transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+.btn繼續:hover{
+  transform: scale(1.1,1.1);
+}
+
+.btn結帳{
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  border-radius: 15px;
+  border: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-top: 40px;
+  text-transform: uppercase;
+  background-color: #ECD7C9;
+  color: #250207;
+  cursor: pointer;
+    transform: scale(1, 1);
+  transition: transform 0.5s ease;
+}
+.btn結帳:hover{
   transform: scale(1.1,1.1);
 }
 .product-detail-container{
@@ -433,7 +476,7 @@ padding: 30px 65px;
   transition: .3s ease-in-out;
 }
 .product-detail-image:hover{
-  background-color: #f02d34;
+  background-color: #250207;
 
 }
 .small-images-container{
@@ -450,10 +493,10 @@ padding: 30px 65px;
 }
 
 .selected-image{
-  background-color:#f02d34;
+  background-color:#250207;
 }
 .reviews{
-  color: #f02d34;
+  color: #250207;
   margin-top: 10px;
   display: flex;
   gap: 5px;
@@ -474,7 +517,7 @@ padding: 30px 65px;
   font-weight: 700 ;
   font-size: 26px;
   margin-top: 30px;
-  color:#f02d34;
+  color:#250207;
 }
 .price .old-price, .product-price .old-price, .price .old-price{
   color: gray;
@@ -492,12 +535,12 @@ padding: 30px 65px;
 }
 .buttons .add-to-cart{
   padding: 10px 20px;
-  border: 1px solid #f02d34 ;
+  border: 1px solid #250207 ;
   margin-top: 40px;
   font-size: 18px;
   font-weight: 500;
   background-color: white;
-  color: #f02d34;
+  color: #250207;
   cursor: pointer;
   width: 200px;
    transform: scale(1, 1);
@@ -510,7 +553,7 @@ padding: 30px 65px;
   width: 200px;
 
   padding: 10px 20px;
-  background-color: #f02d34;
+  background-color: #250207;
   color: white;
   border: none;
   margin-top: 40px;
@@ -524,7 +567,7 @@ padding: 30px 65px;
   transform:scale(1.1,1.1)
 }
 .quantity-desc{
-  border: 1px solid gray;
+  border: 1px solid #250207;
 padding: 6px;
 }
 .quantity-desc span{
@@ -533,15 +576,38 @@ padding: 6px;
   cursor: pointer;
 }
 .quantity-desc .minus{
-  border-right: 1px solid gray;
-  color: #f02d34;
+  border-right: 1px solid #250207;
+  color: #250207;
 }
 .quantity-desc .num{
-  border-right: 1px solid gray;
+  border-right: 1px solid #250207;
   font-size: 20px;
 }
 .quantity-desc .plus{
-  color: rgb(49, 168, 49);
+  color: #250207;
+
+}
+
+.quantity-desc購物車{
+  border: 1px solid #ECD7C9;
+padding: 6px;
+}
+.quantity-desc購物車 span{
+  font-size: 16px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.quantity-desc購物車 .minus{
+  border-right: 1px solid #ECD7C9;
+  color: #ECD7C9;
+}
+.quantity-desc購物車 .num{
+  border-right: 1px solid #ECD7C9;
+  font-size: 20px;
+  color: #ECD7C9;
+}
+.quantity-desc購物車 .plus{
+  color: #ECD7C9;
 
 }
 
@@ -563,7 +629,7 @@ padding: 6px;
 }
 .max-qty{
   font-weight: 500;
-  color: #f02d34;
+  color: #250207;
 }
 .success-wrapper, .cancel-wrapper{
   background-color: white;
@@ -574,7 +640,7 @@ padding: 6px;
   width: 1000px;
 margin: auto;
 margin-top: 160px;
-  background-color: #dcdcdc;
+  background-color: #ECD7C9;
   padding: 50px;
   border-radius: 15px;
   display: flex;
@@ -612,7 +678,7 @@ margin-top: 160px;
 }
 .success .description .email{
   margin-left: 5px;
-  color: #f02d34;
+  color: #250207;
 }
 .product-max-qty{
   margin-top: 10px;
@@ -683,8 +749,10 @@ margin-top: 160px;
     height: 350px;
   }
   .cart-container{
+  
     width: 415px;
-  padding: 4px;
+    padding: 4px;
+
   }
   .cart-heading{
     margin-top: 35px;
@@ -724,11 +792,11 @@ margin-top: 160px;
 }
 .flex h5{
   font-size: 16px;
-   color: #324d67;
+   color: #ECD7C9;
 }
 .flex h4{
   font-size: 16px;
-   color: black;
+   color: #ECD7C9;
 }
 .cart-bottom{
   padding: 30px;
