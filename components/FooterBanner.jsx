@@ -24,10 +24,10 @@ const FooterBanner = ({ footerBanner: { //這邊加上參數後，下面P標籤�
           </Link>
         </div>
 
-        <img 
+        {/* <img 
           src = {urlFor(image)}
           className= "footer-banner-image"
-        />
+        /> */}
       </div>
     </div>
   )
