@@ -19,9 +19,9 @@ const FooterBanner = ({ footerBanner: { //這邊加上參數後，下面P標籤�
           <p>{smallText}</p>
           <h3>{midText}</h3>
           <p>{desc}</p>
-          <Link href={`/product/${product}`}>
+          {/* <Link href={`/product/${product}`}>
             <button type='button'>{buttonText}</button>
-          </Link>
+          </Link> */}
         </div>
 
         {/* <img 
